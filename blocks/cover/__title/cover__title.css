@@ -2,16 +2,36 @@
 	font-weight: 900;
 	font-size: 72px;
 	line-height: 76px;
-	margin: 0 0 32px 0;
+	margin: 245px 0 32px 0;
 	max-width: 560px;
 	text-align: center;
 	z-index: 2;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover__title {
+    margin-top: 195px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__title {
+    margin-top: 115px;
+  }
+}
+
 @media screen and (max-width: 767px) {
 	.cover__title {
-		font-size: 32px;
-		line-height: 35px;
-		margin: 0 0 16px 0;
+		margin: 115px 0 16px 0;
+    font-size: 56px;
+		line-height: 60px;
 	}
+}
+
+@media screen and (max-width: 424px) {
+  .cover__title {
+    font-size: 32px;
+		line-height: 35px;
+    margin: 33px 0 16px 0;
+  }
 }
